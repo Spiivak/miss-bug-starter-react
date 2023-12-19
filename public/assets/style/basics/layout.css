@@ -1,0 +1,5 @@
+  .main-layout {
+    display: grid;
+    grid-template-columns: 128px 1fr 128px;
+    /* height: 100dvh; */
+  }

@@ -1,0 +1,81 @@
+/* Basics */
+@import url('basics/base.css');
+@import url('basics/helpers.css');
+@import url('basics/layout.css');
+
+/* CMPS */
+@import url('cmps/AppFooter.css');
+@import url('cmps/AppHeader.css');
+@import url('cmps/BugFilter.css');
+@import url('cmps/BugPreview.css');
+@import url('cmps/BugSort.css');
+@import url('cmps/UserMsg.css');
+
+/* Setup */
+
+@import url('setup/variables.css');
+
+
+/* Views */
+@import url('views/AboutUs.css');
+@import url('views/BugDetails.css');
+@import url('views/BugIndex.css');
+@import url('views/Home.css');
+
+
+
+
+
+footer {
+    background-color: lightskyblue;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 1px solid whitesmoke;
+    text-decoration: overline;
+    color: whitesmoke;
+}
+
+.main-title {
+    text-align: center;
+    color: rgba(36, 7, 7, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.bug-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bug-preview {
+    background-color: #333;
+    color: whitesmoke;
+    border-radius: .2em;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bug-preview a {
+    color: lightskyblue;
+}
+
+.bug-preview span {
+    color: gold;
+}

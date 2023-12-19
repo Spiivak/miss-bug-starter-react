@@ -1,0 +1,94 @@
+[
+  {
+    "title": "asdasdasd",
+    "desc": "asdadasd",
+    "severity": 3,
+    "labels": "",
+    "_id": "7m9tX"
+  },
+  {
+    "title": "Infinite Loop Detected",
+    "description": "This is a bug description for an infinite loop issue.",
+    "severity": 3,
+    "labels": [
+      "critical",
+      "need-CR"
+    ]
+  },
+  {
+    "title": "UI Alignment Issue",
+    "description": "The buttons are not aligned properly on the page.",
+    "severity": 2,
+    "labels": [
+      "dev-branch"
+    ]
+  },
+  {
+    "title": "Data Loss Bug",
+    "description": "Saving the document causes data loss in certain scenarios.",
+    "severity": 4,
+    "labels": [
+      "critical",
+      "need-CR"
+    ]
+  },
+  {
+    "title": "Authentication Error",
+    "description": "Users are unable to log in due to an authentication error.",
+    "severity": 4,
+    "labels": [
+      "critical",
+      "dev-branch"
+    ]
+  },
+  {
+    "title": "404 Page Not Found",
+    "description": "Navigating to a specific URL results in a 404 error.",
+    "severity": 2,
+    "labels": [
+      "dev-branch"
+    ]
+  },
+  {
+    "title": "Crash on Startup",
+    "description": "The application crashes immediately after startup.",
+    "severity": 4,
+    "labels": [
+      "critical",
+      "need-CR"
+    ]
+  },
+  {
+    "title": "Performance Degradation",
+    "description": "The system experiences slowdowns under heavy load.",
+    "severity": 3,
+    "labels": [
+      "need-CR"
+    ]
+  },
+  {
+    "title": "Missing Feature",
+    "description": "A crucial feature is missing from the application.",
+    "severity": 2,
+    "labels": [
+      "dev-branch"
+    ]
+  },
+  {
+    "title": "Security Vulnerability",
+    "description": "The application has a security vulnerability that needs to be addressed.",
+    "severity": 4,
+    "labels": [
+      "critical",
+      "need-CR"
+    ]
+  },
+  {
+    "title": "Compatibility Issue",
+    "description": "The application is not compatible with the latest browser version.",
+    "severity": 2,
+    "labels": [
+      "dev-branch"
+    ]
+  }
+]
