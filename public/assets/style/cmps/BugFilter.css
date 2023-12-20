@@ -1,0 +1,33 @@
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bug-filter {
+  /* background-color: red; */
+  margin-top: 32px;
+  min-height: 60px;
+  width: 100%;
+  border: 0.5px solid var(--color-neutral-n30);
+  max-width: 1200px;
+  padding: 9.5px 12px 9.5px 16px;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px #1a29470a, 0 2px 8px #1a294714;
+
+  position: sticky;
+  top: auto;
+}
+
+input:not(input[type="checkbox"]) {
+  padding: 8px;
+  margin: 4px;
+}
+
+select {
+  padding: 8px;
+}
+
+input[type="checkbox"] {
+  /* width: 40px */
+}

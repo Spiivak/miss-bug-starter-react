@@ -1,5 +1,22 @@
-  .main-layout {
+  #root {
     display: grid;
     grid-template-columns: 128px 1fr 128px;
-    /* height: 100dvh; */
+    height: 100dvh;
+    grid-template-rows: auto 1fr;
   }
+
+#root *.full {
+  grid-column: 1 / -1;
+}
+
+#root .main-header{
+  grid-column: 1 / -1;
+}
+
+#root main {
+  grid-column: 2;
+}
+
+#root footer {
+  grid-row: 4;
+}

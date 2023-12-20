@@ -1,94 +1,117 @@
 [
   {
-    "title": "asdasdasd",
-    "desc": "asdadasd",
-    "severity": 3,
-    "labels": "",
-    "_id": "7m9tX"
-  },
-  {
-    "title": "Infinite Loop Detected",
-    "description": "This is a bug description for an infinite loop issue.",
+    "title": "Critical Bug: Resolve Infinite Loop Issue",
+    "desc": "This critical bug must be fixed to resolve the infinite loop issue. Update documentation accordingly. Users are experiencing an issue where the application gets stuck in an infinite loop.",
     "severity": 3,
     "labels": [
-      "critical",
-      "need-CR"
-    ]
+      "bug",
+      "documentation"
+    ],
+    "_id": "lsPtC"
   },
   {
-    "title": "UI Alignment Issue",
-    "description": "The buttons are not aligned properly on the page.",
+    "title": "Critical Bug: Resolve Infinite Loop Issue",
+    "desc": "This critical bug must be fixed to resolve the infinite loop issue. Update documentation accordingly. Users are experiencing an issue where the application gets stuck in an infinite loop.",
     "severity": 2,
     "labels": [
-      "dev-branch"
+      "bug",
+      "documentation"
     ]
   },
   {
-    "title": "Data Loss Bug",
-    "description": "Saving the document causes data loss in certain scenarios.",
-    "severity": 4,
-    "labels": [
-      "critical",
-      "need-CR"
-    ]
-  },
-  {
-    "title": "Authentication Error",
-    "description": "Users are unable to log in due to an authentication error.",
-    "severity": 4,
-    "labels": [
-      "critical",
-      "dev-branch"
-    ]
-  },
-  {
-    "title": "404 Page Not Found",
-    "description": "Navigating to a specific URL results in a 404 error.",
-    "severity": 2,
-    "labels": [
-      "dev-branch"
-    ]
-  },
-  {
-    "title": "Crash on Startup",
-    "description": "The application crashes immediately after startup.",
-    "severity": 4,
-    "labels": [
-      "critical",
-      "need-CR"
-    ]
-  },
-  {
-    "title": "Performance Degradation",
-    "description": "The system experiences slowdowns under heavy load.",
+    "title": "Enhance Lorem Ipsum Experience",
+    "desc": "Improve user engagement with an enhanced Lorem Ipsum experience. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptas porro totam quae, quas tenetur provident.",
     "severity": 3,
     "labels": [
-      "need-CR"
+      "enhancement"
     ]
   },
   {
-    "title": "Missing Feature",
-    "description": "A crucial feature is missing from the application.",
+    "title": "Critical Bug Fix: Resolve Infinite Loop Issue",
+    "desc": "This is a critical bug fix for an infinite loop issue. Ensure the loop is resolved and update documentation accordingly.",
+    "severity": 3,
+    "labels": [
+      "bug",
+      "documentation"
+    ]
+  },
+  {
+    "title": "Bug Fix: Resolve UI Alignment Issue",
+    "desc": "Improve user interface by fixing UI alignment issues. Buttons are currently misaligned, negatively impacting user experience.",
     "severity": 2,
     "labels": [
-      "dev-branch"
+      "bug",
+      "help wanted"
     ]
   },
   {
-    "title": "Security Vulnerability",
-    "description": "The application has a security vulnerability that needs to be addressed.",
+    "title": "Critical Bug Fix: Address Data Loss Issue",
+    "desc": "Prevent data loss by addressing a critical bug. Saving the document currently causes data loss in certain scenarios.",
     "severity": 4,
     "labels": [
-      "critical",
-      "need-CR"
+      "bug",
+      "documentation"
     ]
   },
   {
-    "title": "Compatibility Issue",
-    "description": "The application is not compatible with the latest browser version.",
+    "title": "Critical Bug Fix: Resolve Authentication Error",
+    "desc": "This is a critical bug fix for an authentication error. Users are unable to log in. Investigate and resolve the authentication issue.",
+    "severity": 4,
+    "labels": [
+      "bug",
+      "help wanted"
+    ]
+  },
+  {
+    "title": "Bug Fix: Resolve 404 Not Found Error",
+    "desc": "Improve user experience by fixing the 404 error. Navigate to a specific URL without encountering the 404 Not Found issue.",
     "severity": 2,
     "labels": [
-      "dev-branch"
+      "bug",
+      "help wanted"
+    ]
+  },
+  {
+    "title": "Critical Bug Fix: Resolve Startup Crash Issue",
+    "desc": "This is a critical bug fix for a startup crash issue. Investigate and fix the problem to ensure a stable application launch.",
+    "severity": 4,
+    "labels": [
+      "bug",
+      "help wanted"
+    ]
+  },
+  {
+    "title": "Enhancement: Improve System Performance",
+    "desc": "Optimize system performance to prevent slowdowns under heavy load. Enhance overall responsiveness for a smoother user experience.",
+    "severity": 3,
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "title": "Enhancement: Add Missing Feature",
+    "desc": "Enhance application functionality by adding a crucial missing feature. Improve user satisfaction with the implementation of this feature.",
+    "severity": 2,
+    "labels": [
+      "enhancement"
+    ]
+  },
+  {
+    "title": "Critical Bug Fix: Address Security Vulnerability",
+    "desc": "This is a critical bug fix for a security vulnerability. Enhance application security to address the identified vulnerability.",
+    "severity": 4,
+    "labels": [
+      "bug",
+      "help wanted"
+    ]
+  },
+  {
+    "title": "Bug Fix: Resolve Compatibility Issue",
+    "desc": "Improve compatibility with the latest browser version. Resolve compatibility issues to ensure optimal performance for users.",
+    "severity": 2,
+    "labels": [
+      "bug",
+      "help wanted"
     ]
   }
 ]

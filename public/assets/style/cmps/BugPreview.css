@@ -1,0 +1,31 @@
+.bug-preview {
+  background-color: var(--color-neutral-n02);
+  border: 0.5px solid var(--color-neutral-n30);
+  /* color: whitesmoke; */
+  border-radius: .2em;
+  text-align: left;
+  padding: 8px;
+
+  min-width: 225px;
+  min-height: 300px
+}
+
+.bug-preview .bug-title {
+  color: var(--color-neutral-n80);
+  min-height: 36px;
+  text-align: left;
+}
+
+.bug-preview .bug-desc {
+  /* padding-bottom: 32px; */
+}
+
+.bug-preview .bug-severity, .bug-desc {
+  color: var(--color-neutral-n60);
+  padding-top: 16px;
+  margin: 0;
+}
+
+.bug-preview a {
+  color: lightskyblue;
+}

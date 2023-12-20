@@ -1,3 +1,5 @@
 .main-header{
-  background-color: red;
+  background-color: rgb(233, 233, 233);
+  max-height: 65px;
+  padding: 0 128px;
 }

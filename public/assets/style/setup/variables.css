@@ -1,0 +1,32 @@
+body[data-theme="light"] {
+  --color-system-black: #000000;
+  --color-system-white: #ffffff;
+  --color-neutral-n80: #1a2947;
+  --color-neutral-n60: #5d667a;
+  --color-neutral-n50: #afb7c7;
+  --color-neutral-n40: #bcc1cc;
+  --color-neutral-n30: #e1e6f0;
+  --color-neutral-n20: #ebeff7;
+  --color-neutral-n10: #f5f7fc;
+  --color-neutral-n06: rgba(245, 247, 252, .6);
+  --color-neutral-n05: rgba(26, 41, 71, .04);
+  --color-neutral-n02: #ffffff;
+  --color-neutral-n00: #ffffff;
+  --color-brand-b60: #1d5ef5;
+  --color-brand-b50: #3173f6;
+  --color-brand-b10: rgba(49, 115, 246, .08);
+  --color-poly-r60: #eb2f00;
+  --color-poly-r50: #ff3300;
+  --color-poly-g50: #21a35d;
+  --color-poly-g40: #3ead81;
+  --color-poly-o50: #ff6c0a;
+  --color-poly-p60: #6f42c1;
+  --color-selection: #aafafa;
+  --transparent-nt80: rgba(13, 15, 20, .8);
+  --transparent-nt20: rgba(0, 0, 0, .2);
+  --transparent-nt10: rgba(0, 0, 0, .08);
+  --transparent-gt20: rgba(33, 163, 93, .2);
+  --transparent-gt10: rgba(33, 163, 93, .12);
+  --gradient-ng10: linear-gradient(266deg, #f0f3fa 0%, rgba(235, 238, 245, .6) 100%);
+
+}

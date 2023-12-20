@@ -11,7 +11,6 @@ import { AboutUs } from './pages/AboutUs.jsx'
 export function App() {
     return (
         <Router>
-            <div>
                 <AppHeader />
                 <main>
                     <Routes>
@@ -22,7 +21,6 @@ export function App() {
                     </Routes>
                 </main>
                 <AppFooter />
-            </div>
         </Router>
     )
 }

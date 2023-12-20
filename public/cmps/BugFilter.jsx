@@ -1,6 +1,6 @@
 const { useState, useEffect } = React
 
-export function BugFilter({ filterBy, onSetFilter, sortBy, onSetSort }) {
+export function BugFilter({ filterBy, onSetFilter, sortBy, onSetSort, onAddBug }) {
 
   const [filterByToEdit, setFilterByToEdit] = useState(filterBy)
   const [sortByToEdit, setSortByToEdit] = useState(sortBy)
@@ -54,33 +54,28 @@ export function BugFilter({ filterBy, onSetFilter, sortBy, onSetSort }) {
     })
   }
 
-
   const { title, desc, severity } = filterByToEdit
   return (
-    <section className="bug-filter main-layout full">
-      <h2>Filter Our Bugs</h2>
+    <section className="filter-container">
 
-      <form>
-        <label htmlFor="title">Title: </label>
-        <input value={title} onChange={handleChange} type="text" id="title" name="title" />
+    <section className="bug-filter flex justify-center align-center">
+      <button onClick={onAddBug}>Add Bug</button>
+      <form onSubmit={(ev) => ev.preventDefault}>
+        <input value={title} onChange={handleChange} type="text" id="title" name="title" placeholder="Search by title" />
 
-        <label htmlFor="desc">Desc: </label>
-        <input value={desc} onChange={handleChange} type="text" id="desc" name="desc" />
+        <input value={desc} onChange={handleChange} type="text" id="desc" name="desc" placeholder="Search by description" />
 
-        <label htmlFor="severity">Severity: </label>
-        <input value={severity || ''} onChange={handleChange} type="number" id="severity" name="severity" />
+        <input value={severity || ''} onChange={handleChange} type="number" id="severity" name="severity" placeholder="Search by severity"/>
 
-        <button>Submit</button>
-      </form>
-
-      <div>
         <select name="sortBy" id="sortby" onChange={handleSort}>
           <option value="createdAt">Created At</option>
           <option value="title">Title</option>
           <option value="severity">Severity</option>
         </select>
         <input type="checkbox" onChange={handleSort} name="sortOrder" id="sortdir" />
-      </div>
+      </form>
+
+    </section>
     </section>
   )
 }

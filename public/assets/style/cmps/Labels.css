@@ -1,0 +1,47 @@
+.label {
+  color: var(--color-system-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* height: fit-content; */
+
+  padding: 2px 8px;
+  margin: 8px 8px 8px 0;
+  border-radius: 50em;
+}
+
+
+.label.bug {
+  background-color: #D73A4A;
+}
+.label.documentation {
+  background-color: #0075CA;
+}
+
+.label.duplicate {
+  background-color: #CFD3D7;
+}
+
+.label.enhancement {
+  background-color: #A2EEEF;
+}
+
+.label.good-first-issue {
+  background-color: #7057FF;
+}
+
+.label.help-wanted {
+  background-color: #008672;
+}
+
+.label.invalid{
+  background-color: #E4E669;
+}
+
+.label.question{
+  background-color: #D876E3;
+}
+
+.label.wondfix{
+  background: #FFFFFF;
+}

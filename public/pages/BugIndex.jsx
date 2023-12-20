@@ -120,17 +120,16 @@ export function BugIndex() {
     if (!bugs) return <div>Loading...</div>
     return (
         <section className="bug-index">
-
-            <h3>Bugs App</h3>
             <BugFilter
             filterBy={{ title, desc, severity, pageIdx }}
             onSetFilter={debounceOnSetFilter.current}
             sortBy={sortBy}
             onSetSort={onSetSort}
+            onAddBug={onAddBug}
             />
 
             <main className='bug-main'>
-                <button onClick={onAddBug}>Add Bug ⛐</button>
+                {/* <button onClick={onAddBug}>Add Bug ⛐</button> */}
                 <BugList bugs={bugs} onRemoveBug={onRemoveBug} onEditBug={onEditBug} />
 
                 <section className="bug-pagination">
